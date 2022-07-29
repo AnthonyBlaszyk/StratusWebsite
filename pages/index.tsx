@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <div className="main">
         <VideoBackground/>
-        <h1>Soon</h1>
+        <h1>Soon...</h1>
       </div>
     </div>
   )

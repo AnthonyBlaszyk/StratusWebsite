@@ -23,3 +23,9 @@ h1{
   color: white;
   text-align: center;
 }
+
+@media (max-width: 850px) {
+  video{
+    width: 80%;
+  }
+}
