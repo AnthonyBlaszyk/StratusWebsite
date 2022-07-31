@@ -33,7 +33,7 @@ const SubscriptionComponent = () => {
         starterContenu,
         "Le starter",
         500,
-        "purple",
+        "blue",
         "white",
         "SenteurPlaisir.jpg"
       )}
@@ -51,7 +51,7 @@ const SubscriptionComponent = () => {
         packNumeriqueContenu,
         "Le pack numerique",
         250,
-        "purple",
+        "blue",
         "white",
         "Arcadia.png"
       )}

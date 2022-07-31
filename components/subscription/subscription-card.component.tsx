@@ -21,7 +21,7 @@ const SubscriptionCardComponent = (
 
   return (
     <>
-      <div className={`bg-${background} flex subscribtion-card`}>
+      <div className={`bg-${background} flex subscribtion-card ${textColor}`}>
         {background === "white" ? (
           <div className="img-subscription-card">
             <img src={`/assets/${imageUrl}`} />
@@ -31,7 +31,7 @@ const SubscriptionCardComponent = (
         <div className="cardContent ">
           <div className="cardHeader flex">
             <h2 className="subscribtion-card-title">{cardTitle}</h2>
-            <button onClick={() => setCardContent("Description")}>
+            <button className={textColor} onClick={() => setCardContent("Description")}>
               {cardContent === "Description" ? (
                 <>
                   <p>Description</p>
@@ -44,7 +44,7 @@ const SubscriptionCardComponent = (
                 </>
               )}
             </button>
-            <button onClick={() => setCardContent("Contenu")}>
+            <button className={textColor} onClick={() => setCardContent("Contenu")}>
               {cardContent === "Contenu" ? (
                 <>
                   <p>Contenu</p>
@@ -61,14 +61,14 @@ const SubscriptionCardComponent = (
 
           <div className="cardText">{getStarterText()}</div>
           <span className={`underlineSpan bg-${textColor}`}></span>
-          <div className="footer-card-button-group flex">
-            <button className="footer-card-button">
+          <div className={`footer-card-button-group flex ${textColor}`}>
+            <p>
               {price} euros <span className="ttc">TTC</span>
-            </button>
-            <button className="footer-card-button">Je veux ce pack</button>
+            </p>
+            <button className={`footer-card-button ${textColor}  border-${textColor}`}>Je veux ce pack</button>
           </div>
         </div>
-        {background === "purple" ? (
+        {background === "blue" ? (
           <div className="img-subscription-card">
             <img src={`/assets/${imageUrl}`} />
           </div>

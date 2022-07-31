@@ -20,7 +20,7 @@ const categories = [
     {
       name: "Tarif pack abonnement",
       desc: "Ici un aperçu de nos tarifs et abonnement.",
-      color: "purple",
+      color: "blue",
       slug: "subscription"
     },
     {

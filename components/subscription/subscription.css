@@ -1,6 +1,5 @@
 .subscriptionHeader{
-  height: 40vh;
-  padding: 10vh;
+  padding: 5vh;
 }
 
 .subscriptionTitle{
@@ -22,9 +21,8 @@
 
 .subscribtion-card{
  align-items: center;
- height: 70vh;
+ height: 65vh;
 }
-
 
 .img-subscription-card {
   width: 65%;
@@ -47,7 +45,7 @@
   padding: 10px 100px 0 0;
   text-align: justify;
   color: white;
-  height: 50vh;
+  height: 45vh;
 }
 
 .cardText p {
@@ -82,7 +80,6 @@
 
 .subscribtion-card-title {
   text-transform: uppercase;
-  color: #5B498D
 }
 
 .underlineSpan {
@@ -124,6 +121,8 @@ h2{
 
 button p{
   font-size: 18px;
-  color: #5B498D
 }
 
+.footer-card-button-group{
+  font-size: 24px;
+}
