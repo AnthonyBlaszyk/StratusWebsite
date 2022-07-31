@@ -1,10 +1,10 @@
-import { SubscriptionCardComponent } from "./subscription-card.component"
+import SubscriptionCardComponent from "./subscription-card.component"
 import { starterContenu, starterDescription } from "./subscription-card/starter-card"
 import { proBrandingContenu, proBrandingDescription } from "./subscription-card/pro-branding-card"
 import { packNumeriqueContenu, packNumeriqueDescription  } from "./subscription-card/pack-numerique-card"
 import { printContenu, printDescription } from "./subscription-card/print-card"
 
-export const SubscriptionComponent = () => {
+const SubscriptionComponent = () => {
     return (
     <>
         {SubscriptionCardComponent(starterDescription, starterContenu, 'Le starter', 500, 'purple', 'white')}
@@ -14,3 +14,5 @@ export const SubscriptionComponent = () => {
     </>
     )
 }
+
+export default SubscriptionComponent

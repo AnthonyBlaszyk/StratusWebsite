@@ -1,6 +1,6 @@
 import React from "react";
 
-export const SubscriptionCardComponent = (
+const SubscriptionCardComponent = (
   descriptionText: JSX.Element,
   contenuText: JSX.Element,
   cardTitle: string,
@@ -76,3 +76,5 @@ export const SubscriptionCardComponent = (
     </>
   );
 };
+
+export default SubscriptionCardComponent

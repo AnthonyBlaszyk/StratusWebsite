@@ -1,4 +1,4 @@
-export const categories = [
+const categories = [
     {
       name: "Nos réalisations",
       desc: "Retrouvez ici toutes nos créations.",
@@ -30,3 +30,5 @@ export const categories = [
       slug: "contact"
     },  
   ]
+
+  export default categories

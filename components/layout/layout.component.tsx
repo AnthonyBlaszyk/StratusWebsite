@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import React from "react";
-import { categories } from "../../utilities/categories";
+import categories from "../../utilities/categories";
 import Head from "next/head";
 
-export const Layout = (mainComponent: JSX.Element): JSX.Element => {
+const Layout = (mainComponent: JSX.Element): JSX.Element => {
   const GetUrlSlug = () => {
     const router = useRouter();
     const pid = router.asPath;
@@ -54,3 +54,5 @@ export const Layout = (mainComponent: JSX.Element): JSX.Element => {
     </>
   );
 };
+
+export default Layout

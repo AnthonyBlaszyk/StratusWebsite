@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import VideoBackground from './components/VideoBackround'
+import VideoBackground from '../components/VideoBackround'
 
 const Home: NextPage = () => {
   return (
