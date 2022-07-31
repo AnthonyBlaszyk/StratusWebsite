@@ -1,0 +1,102 @@
+.subscribtion-card{
+ align-items: center; 
+}
+
+.img-subscription-card {
+  width: 50%;
+}
+
+.img-subscription-card > img{
+  width: 100%;
+}
+
+.cardContent {
+  width: 100%;
+  padding: 30px;
+}
+
+.cardText {
+  padding: 10px 100px 0 0;
+  text-align: justify;
+  color: white;
+  height: 400px
+}
+
+.cardText p {
+  margin: 20px 0;
+}
+
+.cardHeader button {
+  margin-left: 20px;
+}
+
+.cardHeader h2 {
+  margin-right: 40px;
+}
+
+.contenu-card-content{
+  justify-content: space-between;
+  text-align: left;
+}
+
+.etudeGraphique {
+  width: 40%;
+}
+
+.etudeGraphique > p, .universGraphique > p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.universGraphique {
+  width: 55%;
+}
+
+
+.subscribtion-card-title {
+  text-transform: uppercase;
+}
+
+.underlineSpan {
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.underlineSpanNone {
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  background-color: inherit;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.footer-card-button {
+  border: 2px black solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.footer-card-button-group {
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.ttc {
+  font-size: 9px;
+  margin: 0 5px;
+}
+
+
+
+h2{
+  font-weight: 400;
+}
+
+button p{
+  font-size: 18px;
+}
+
