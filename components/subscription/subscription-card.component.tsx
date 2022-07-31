@@ -6,7 +6,8 @@ const SubscriptionCardComponent = (
   cardTitle: string,
   price: number,
   background: string,
-  textColor: string
+  textColor: string,
+  imageUrl: string
 ) => {
   const [cardContent, setCardContent] = React.useState("Description");
 
@@ -23,7 +24,7 @@ const SubscriptionCardComponent = (
       <div className={`bg-${background} flex subscribtion-card`}>
         {background === "white" ? (
           <div className="img-subscription-card">
-            <img src="/assets/img01.webp" />
+            <img src={`/assets/${imageUrl}`} />
           </div>
         ) : null}
 
@@ -69,7 +70,7 @@ const SubscriptionCardComponent = (
         </div>
         {background === "purple" ? (
           <div className="img-subscription-card">
-            <img src="/assets/img01.webp" />
+            <img src={`/assets/${imageUrl}`} />
           </div>
         ) : null}
       </div>

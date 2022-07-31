@@ -1,13 +1,41 @@
-.subscribtion-card{
- align-items: center; 
+.subscriptionHeader{
+  height: 40vh;
+  padding: 10vh;
 }
 
+.subscriptionTitle{
+  text-transform: uppercase;
+  color: black;
+  font-size: 42px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.subscriptionSubtitle{
+  margin: 10px 0 20px 0;
+}
+
+.subscriptionTextTitle{
+  padding: 0 100px;
+  margin: 15px 0;
+}
+
+.subscribtion-card{
+ align-items: center;
+ height: 70vh;
+}
+
+
 .img-subscription-card {
-  width: 50%;
+  width: 65%;
+  height: 56vh;
+  margin: 0 15px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.30);
 }
 
 .img-subscription-card > img{
-  width: 100%;
+  height: 100%;
 }
 
 .cardContent {
@@ -19,7 +47,7 @@
   padding: 10px 100px 0 0;
   text-align: justify;
   color: white;
-  height: 400px
+  height: 50vh;
 }
 
 .cardText p {
@@ -52,15 +80,15 @@
   width: 55%;
 }
 
-
 .subscribtion-card-title {
   text-transform: uppercase;
+  color: #5B498D
 }
 
 .underlineSpan {
   display: block;
   width: 100%;
-  height: 0.2rem;
+  height: 0.1rem;
   border-radius: 10px;
   margin: 5px 0;
 }
@@ -68,7 +96,7 @@
 .underlineSpanNone {
   display: block;
   width: 100%;
-  height: 0.2rem;
+  height: 0.1rem;
   background-color: inherit;
   border-radius: 10px;
   margin: 5px 0;
@@ -90,13 +118,12 @@
   margin: 0 5px;
 }
 
-
-
 h2{
   font-weight: 400;
 }
 
 button p{
   font-size: 18px;
+  color: #5B498D
 }
 
