@@ -1,4 +1,4 @@
-export const PrintDescription = (
+export const printDescription = (
   <>
     <div className="black">
       <p>
@@ -20,7 +20,7 @@ export const PrintDescription = (
   </>
 );
 
-export const PrintContenu = (
+export const printContenu = (
   <>
     <div className="flex contenu-card-content black">
       <div className="etudeGraphique">

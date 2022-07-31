@@ -1,4 +1,4 @@
-export const PackNumeriqueDescription = (
+export const packNumeriqueDescription = (
   <>
     <div className="white">
       <p>
@@ -17,7 +17,7 @@ export const PackNumeriqueDescription = (
   </>
 );
 
-export const PackNumeriqueContenu = (
+export const packNumeriqueContenu = (
   <>
     <div className="flex contenu-card-content white">
       <div className="etudeGraphique">

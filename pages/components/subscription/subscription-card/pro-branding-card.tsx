@@ -1,4 +1,4 @@
-export const ProBrandingDescription = (
+export const proBrandingDescription = (
   <>
     <div className="black">
       <p>
@@ -17,7 +17,7 @@ export const ProBrandingDescription = (
   </>
 );
 
-export const ProBrandingContenu = (
+export const proBrandingContenu = (
   <>
     <div className="flex contenu-card-content black">
       <div className="etudeGraphique">

@@ -1,4 +1,4 @@
-export const StarterDescription = (
+export const starterDescription = (
   <>
     <div className="white">
       <p>
@@ -17,7 +17,7 @@ export const StarterDescription = (
   </>
 );
 
-export const StarterContenu = (
+export const starterContenu = (
   <>
     <div className="flex contenu-card-content white  ">
       <div className="etudeGraphique">
