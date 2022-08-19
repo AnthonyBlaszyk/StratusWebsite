@@ -1,0 +1,61 @@
+.indexNav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20vh;
+    display: flex;
+}
+
+.indexNavBlock{
+    font-size: 21px;
+    color: white;
+    width: 20%;
+    text-align: center;
+    padding-top: 5vh;
+    transition: all 0.4s ease-out;
+}
+
+.indexNavBlock:hover{
+    transition: all 0.6s ease-in;
+    padding-top: 0vh;
+}
+
+.indexNavBlock img{
+    margin-top: 20px;
+    width: 2vh;
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+
+.indexNavBlock:hover img{
+    transition: all 0.6s ease-in;
+    opacity: 1;
+}
+
+@media screen and (max-width: 950px) {
+    .indexNav{
+        margin-top: 10vh;
+        background-color: black;
+        position: relative;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .indexNavBlock img{
+        margin-top: 0;
+        width: 0;
+    }
+
+    .indexNavBlock{
+        font-size: 21px;
+        color: white;
+        padding: 5vh 0;
+    }
+
+    .indexNavBlock:hover{
+        padding-top: 5vh;
+    }
+}
