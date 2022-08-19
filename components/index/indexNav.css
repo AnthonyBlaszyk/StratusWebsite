@@ -54,6 +54,7 @@
         color: white;
         text-align: center;
         padding: 5vh 0;
+        width: 100%;
     }
 
     .indexNavBlock:hover{
