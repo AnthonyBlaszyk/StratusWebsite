@@ -22,6 +22,7 @@ const SubscriptionCardComponent = (
   return (
     <>
       <div className={`bg-${background} flex subscribtion-card ${textColor}`}>
+
         {background === "white" ? (
           <div className="img-subscription-card">
             <img src={`/assets/${imageUrl}`} />
@@ -68,11 +69,17 @@ const SubscriptionCardComponent = (
             <button className={`footer-card-button ${textColor}  border-${textColor}`}>Je veux ce pack</button>
           </div>
         </div>
+
         {background === "blue" ? (
-          <div className="img-subscription-card">
+          imageUrl === "Arcadia.png" ?
+          (<div className={`img-subscription-card without-shadow`}>
             <img src={`/assets/${imageUrl}`} />
-          </div>
+          </div>) :
+          (<div className={`img-subscription-card`}>
+          <img src={`/assets/${imageUrl}`} />
+        </div>) 
         ) : null}
+
       </div>
     </>
   );

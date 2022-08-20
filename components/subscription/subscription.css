@@ -126,3 +126,7 @@ button p{
 .footer-card-button-group{
   font-size: 24px;
 }
+
+.without-shadow{
+  box-shadow: none;
+}
