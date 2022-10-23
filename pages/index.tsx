@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import HomePage from './homePage/Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +11,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Stratus, une identité visuelle à votre image" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <HomePage></HomePage>
     </div>
   )
 }

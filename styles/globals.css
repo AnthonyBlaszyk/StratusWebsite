@@ -7,45 +7,6 @@
   font-family: 'Fredoka', sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.main{
-  background-color: black;
-  width: 100%;
-  height: 100vh;
-}
-
-.flex{
-  display: flex;
-}
-
-video{
-  width: 30%;
-  display: block;
-  margin: auto;
-}
-
-button{
-  background-color: inherit;
-  border: none;
-  cursor: pointer;
-}
-
-ul li{
-  list-style: none;
-}
-
-h1{
-  font-weight: 100;
-  color: white;
-  text-align: center;
-}
 
 @media (max-width: 850px) {
-  video{
-    width: 80%;
-  }
 }
