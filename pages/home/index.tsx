@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,25 +16,24 @@ export default function Home() {
               src="/assets/stratusVideo.mp4"
               autoPlay
               muted
-							playsInline
             />
           </Col>
         </Row>
-        <Row className="text-white text-center" >
+        <Row className="text-center" >
           <Col xs={12} md={2} className="py-5">
-            <a>{"Réalisation"}</a>
+            <a href="/realisations">{"Réalisation"}</a>
           </Col>
           <Col xs={12} md={2} className="py-5">
-            <a>{"L'équipe"}</a>
+            <a href="">{"L'équipe"}</a>
           </Col>
           <Col xs={12} md={2} className="py-5">
-            <a>{"Tarif/Abonnement"}</a>
+            <a href="">{"Tarif/Abonnement"}</a>
           </Col>
           <Col xs={12} md={2} className="py-5">
-            <a>{"FAQ"}</a>
+            <a href="">{"FAQ"}</a>
           </Col>
           <Col xs={12} md={2} className="py-5">
-            <a>{"Contacts"}</a>
+            <a href="">{"Contacts"}</a>
           </Col>
         </Row>
       </Container>
@@ -41,4 +41,3 @@ export default function Home() {
   );
 }
 
-//

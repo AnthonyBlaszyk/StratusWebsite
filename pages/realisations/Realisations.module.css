@@ -1,0 +1,80 @@
+.main{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.navBar a{
+    color: white;
+}
+
+.container{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh 5vw;
+}
+
+.box1, .box2, .box3{
+    width: 33.3%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1, .img2, .img3{
+    height: 50%;
+    background-image: url('/assets/img/suisei.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1{
+    width: 100%;
+}
+
+.img2, .img3{
+    width: 50%;
+}
+
+.img4{
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/img/suisei.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img5, .img6{
+    width: 100%;
+    height: 50%;
+    background-image: url('/assets/img/suisei.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6{
+    border: black 6px solid;
+}
+
+@media (max-width: 900px) {
+
+    .container{
+        height: auto;
+    }
+
+    .box1, .box2, .box3{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+.img1, .img2, .img3, .img4, .img5, .img6{
+    width: 100%;
+    height: 30vh;
+}
+}
