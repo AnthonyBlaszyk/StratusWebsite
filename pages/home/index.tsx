@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styles from './Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -21,19 +22,19 @@ export default function Home() {
         </Row>
         <Row className="text-center" >
           <Col xs={12} md={2} className="py-5">
-            <a href="/realisations">{"Réalisation"}</a>
+            <Link href="/realisations"><a>{"Réalisation"}</a></Link>
           </Col>
           <Col xs={12} md={2} className="py-5">
-            <a href="">{"L'équipe"}</a>
+            <Link href="/"><a>{"L'équipe"}</a></Link>
           </Col>
           <Col xs={12} md={2} className="py-5">
-            <a href="">{"Tarif/Abonnement"}</a>
+            <Link href="/"><a>{"Tarif/Abonnement"}</a></Link>
           </Col>
           <Col xs={12} md={2} className="py-5">
-            <a href="">{"FAQ"}</a>
+            <Link href="/"><a>{"FAQ"}</a></Link>
           </Col>
           <Col xs={12} md={2} className="py-5">
-            <a href="">{"Contacts"}</a>
+          <Link href="/"><a>{"Contacts"}</a></Link>
           </Col>
         </Row>
       </Container>
