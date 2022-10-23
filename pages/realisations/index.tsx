@@ -6,20 +6,20 @@ export default function Realisations() {
   return (
 		<div className={styles.main}>
 			<div className={styles.navBar}>
-				<Nav className="justify-content-end navBar" activeKey="/home">
-					<Nav.Item>
+				<Nav className="justify-content-end" activeKey="/home">
+					<Nav.Item className={styles.nav}>
 						<Nav.Link href="/realisations">{"Réalisation"}</Nav.Link>
 					</Nav.Item>
-					<Nav.Item>
+					<Nav.Item className={styles.nav}>
 						<Nav.Link href="/">{"L'équipe"}</Nav.Link>
 					</Nav.Item>
-					<Nav.Item>
+					<Nav.Item className={styles.nav}>
 						<Nav.Link href="/">{"Tarifs/packs/Abonnement"}</Nav.Link>
 					</Nav.Item>
-					<Nav.Item>
+					<Nav.Item className={styles.nav}>
 						<Nav.Link href="/">{"FAQ"}</Nav.Link>
 					</Nav.Item>
-					<Nav.Item>
+					<Nav.Item className={styles.nav}>
 						<Nav.Link href="/">{"Contacts"}</Nav.Link>
 					</Nav.Item>
 				</Nav>
