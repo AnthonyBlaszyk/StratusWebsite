@@ -13,14 +13,25 @@
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    padding: 5vh 5vw;
+    padding: 7vh 7vw;
 }
 
 .box1, .box2, .box3{
-    width: 33.3%;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     flex-wrap: wrap;
+}
+
+.box1{
+    width: 45%;
+}
+
+.box2{
+    width: 25%;
+}
+
+.box3{
+    width: 30%;
 }
 
 .img1, .img2, .img3{
@@ -58,7 +69,7 @@
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6{
-    border: black 6px solid;
+    border: black 15px solid;
 }
 
 @media (max-width: 900px) {
